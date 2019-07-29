@@ -57,11 +57,11 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 -- SELECT name FROM people;
 
 -- 3. Oops! Someone spelled Krusty The Clown's name wrong! Change it to reflect the proper spelling (Crusty should be Krusty).
-UPDATE people SET name = 'Krusty the Clown' WHERE name = 'Crusty the Clown';
-SELECT name FROM people;
+-- UPDATE people SET name = 'Krusty the Clown' WHERE name = 'Crusty the Clown';
+-- SELECT name FROM people;
 
 -- 4. Return ONLY Homer Simpson's name from the 'people' table.
-
+SELECT name FROM people WHERE name = 'Homer Simpson'
 
 -- 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 

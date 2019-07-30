@@ -97,3 +97,9 @@ DELETE FROM movies WHERE id IN (15, 17, 19);
 -- You could also delete based on an identical property that several entries share:
 DELETE FROM movies WHERE year = 2017;
 SELECT * FROM movies;
+
+DELETE FROM people WHERE name LIKE '%Simpson';
+
+SELECT * FROM people;
+
+-- Should've been using IDs not names etc.
